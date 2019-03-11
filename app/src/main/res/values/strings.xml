@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hall Of Fame</string>
+    <string name="btn_Insp">INSPIRATION</string>
+    <string name="btn_Edit">EDIT DESCRIPTION</string>
+    <string name="et_EditDesc">Enter new description</string>
+    <string name="tv_nameNietzsche">Friedrich Wilhelm Nietzsche</string>
+    <string name="tv_dateNietzsche">1844 – 1900</string>
+    <string name="tv_descriptionNietzsche">A German philosopher, cultural critic, composer, poet, philologist, and a Latin and Greek scholar.</string>
+    <string name="tv_nameBruce">Bruce Lee</string>
+    <string name="tv_dateBruce">1940 – 1973</string>
+    <string name="tv_descriptionBruce">Actor, film director, martial artist, martial arts instructor, philosopher, and founder of the martial art Jeet Kune Do.</string>
+    <string name="tv_dateMao">1893 – 1976</string>
+    <string name="tv_nameMao">Mao Zedong</string>
+    <string name="tv_descriptionMao">Chinese communist revolutionary who became the founding father of the People\'s Republic of China.</string>
+    <string name="quoteNietzsche">There is always some madness in love. But there is also always some reason in madness. Friedrich Nietzsche</string>
+    <string name="quoteBruce">A wise man can learn more from a foolish question than a fool can learn from a wise answer. Bruce Lee</string>
+    <string name="quoteMao">Politics is war without bloodshed while war is politics with bloodshed. Mao Zedong</string>
+    <string name="rbCheck">Please check the person you want to edit</string>
+    <string name="rbFirst">First person</string>
+    <string name="rbSecond">Second person</string>
+    <string name="rbThird">Third person</string>
+    <string name="iv_descriptNietzsche">Nietzsche picture</string>
+    <string name="iw_descriptMao">Mao picture</string>
+    <string name="iw_descriptBruce">Bruce picture</string>
+</resources>

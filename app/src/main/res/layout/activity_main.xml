@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackG">
+
+    <Button
+        android:id="@+id/btnInspiration"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen_llMargin"
+        android:layout_marginLeft="@dimen/dimen_llMargin"
+        android:text="@string/btn_Insp"
+        android:onClick="customClickOnInsp"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/btnInspiration"
+        android:text="Reset"
+        android:onClick="customClickOnReset"/>
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInspiration"
+        android:background="@color/colorLL"
+        android:layout_marginTop="@dimen/dimen_llMargin"
+        android:layout_marginLeft="@dimen/dimen_llMargin"
+        android:layout_marginRight="@dimen/dimen_llMargin">
+
+        <ImageView
+            android:id="@+id/ivNietzsche"
+            android:layout_width="@dimen/dimen_PictureSize"
+            android:layout_height="@dimen/dimen_PictureSize"
+            android:src="@drawable/nietzsche"
+            android:contentDescription="@string/iv_descriptNietzsche"
+            android:layout_margin="@dimen/dimen_ivMargin"
+            android:onClick="customClickOnImgNietzsche"/>
+
+        <TextView
+            android:id="@+id/tvNameNietzsche"
+            android:layout_toEndOf="@id/ivNietzsche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_NameSize"
+            android:textColor="@color/colorText"
+            android:text="@string/tv_nameNietzsche" />
+
+        <TextView
+            android:id="@+id/tvDateNietzsche"
+            android:layout_toEndOf="@id/ivNietzsche"
+            android:layout_below="@id/tvNameNietzsche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_dateNietzsche" />
+
+        <TextView
+            android:id="@+id/tvDescriptionNietzsche"
+            android:layout_toEndOf="@id/ivNietzsche"
+            android:layout_below="@id/tvDateNietzsche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:text="@string/tv_descriptionNietzsche" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl1"
+        android:background="@color/colorLL"
+        android:layout_marginTop="@dimen/dimen_llMargin"
+        android:layout_marginLeft="@dimen/dimen_llMargin"
+        android:layout_marginRight="@dimen/dimen_llMargin">
+
+        <ImageView
+            android:id="@+id/ivBruce"
+            android:layout_width="@dimen/dimen_PictureSize"
+            android:layout_height="@dimen/dimen_PictureSize"
+            android:layout_margin="@dimen/dimen_ivMargin"
+            android:src="@drawable/bruce"
+            android:contentDescription="@string/iw_descriptBruce"
+            android:onClick="customClickOnImgBruce"/>
+
+        <TextView
+            android:id="@+id/tvNameBruce"
+            android:layout_toEndOf="@id/ivBruce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_nameBruce"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_NameSize"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/tvDateBruce"
+            android:layout_toEndOf="@id/ivBruce"
+            android:layout_below="@id/tvNameBruce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_dateBruce" />
+
+        <TextView
+            android:id="@+id/tvDescriptionBruce"
+            android:layout_toEndOf="@id/ivBruce"
+            android:layout_below="@id/tvDateBruce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_descriptionBruce"
+            android:textColor="@color/colorText"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl2"
+        android:background="@color/colorLL"
+        android:layout_marginTop="@dimen/dimen_llMargin"
+        android:layout_marginLeft="@dimen/dimen_llMargin"
+        android:layout_marginRight="@dimen/dimen_llMargin">
+
+        <ImageView
+            android:id="@+id/ivMao"
+            android:layout_width="@dimen/dimen_PictureSize"
+            android:layout_height="@dimen/dimen_PictureSize"
+            android:layout_margin="@dimen/dimen_ivMargin"
+            android:src="@drawable/maoze"
+            android:contentDescription="@string/iw_descriptMao"
+            android:onClick="customClickOnImgMao"/>
+
+        <TextView
+            android:id="@+id/tvNameMao"
+            android:layout_toEndOf="@id/ivMao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_nameMao"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_NameSize"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            android:id="@+id/tvDateMao"
+            android:layout_toEndOf="@id/ivMao"
+            android:layout_below="@+id/tvNameMao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_dateMao" />
+
+        <TextView
+            android:id="@+id/tvDescriptionMao"
+            android:layout_toEndOf="@+id/ivMao"
+            android:layout_below="@+id/tvDateMao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_descriptionMao"
+            android:textColor="@color/colorText"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLL">
+
+        <EditText
+            android:id="@+id/etEditDescription"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/et_EditDesc"
+            android:inputType="text" />
+
+        <Button
+            android:layout_toEndOf="@+id/etEditDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_Edit"
+            android:onClick="customClickOnEdit"/>
+
+        <RadioGroup
+            android:layout_below="@id/etEditDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbFirst"/>
+
+            <RadioButton
+                android:id="@+id/rbSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbSecond"/>
+
+            <RadioButton
+                android:id="@+id/rbThird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbThird"/>
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>
